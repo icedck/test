@@ -1,10 +1,54 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <title>$Title$</title>
+    <meta charset="UTF-8">
+    <title>viduveform</title>
 </head>
 <body>
-$END$
+<form action="login" name="form name">
+    <fieldset>
+        <legend>personalia:</legend>
+        <label for="uname">name:</label>
+        <input type="text" id="uname" name="uname" required><br><br>
+        <label for="umail">email:</label>
+        <input type="email" id="umail" name="umail" required><br><br>
+        <label for="dob">date of birth:</label>
+        <input type="date" id="dob" name="dob" required><br><br>
+        <input type="submit" value="submit">
+    </fieldset>
+</form>
+<form action="login" method="post">
+    <fieldset>
+        username:<br>
+        <input type="text" name="username" required><br>
+        password:<br>
+        <input type="password" name="password" required><br>
+        gender:<br>
+        <input type="radio" name="gender" value="male" checked>male<br>
+        <input type="radio" name="gender" value="female">female<br>
+        <input type="radio" name="gender" value="other">other<br>
+        checkbox:<br>
+        <input type="checkbox" name="vehicle" value="car" checked>car<br>
+        <input type="checkbox" name="vehicle" value="motorcycle">motorcycle<br>
+        <input type="checkbox" name="vehicle" value="train">train<br>
+        the textarea:<br>
+        <textarea rows="4" cols="50" name="textarea">ai yeu Bac Ho Chi Minh hon thieu nien nhi dong</textarea><br><br>
+        the select va the option:<br>
+        <select name="Tinh">
+            <option value="HN">Ha Noi</option>
+            <option value="HUE">Hue</option>
+            <option value="DN">Da Nang</option>
+        </select><br>
+        <select name="quan" multiple>
+            <option value="NTL">Nam Tu Liem</option>
+            <option value="DD">Dong Da</option>
+            <option value="TX">Thanh Xuan</option>
+        </select><br>
+        <input type="button" onclick="alert('helloworld')" value="Click me">
+        <input type="submit" value="submit">
+        <input type="reset" value="reset">
+
+    </fieldset>
+</form>
 </body>
 </html>

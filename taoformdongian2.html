@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>taoformdongian2</title>
+  <link rel="stylesheet" href="taoformdongian2.css">
+</head>
+<body>
+
+  <div class="container">
+    <h2>Dang ky hoc vien</h2>
+    <form>
+      <label>Ho va ten</label>
+      <input type="text" name="name" placeholder="Ho va ten"><br><br>
+      <label>Ngay sinh</label>
+      <input type="text" name="date" placeholder="Ngay sinh"><br><br>
+      <label>Gioi tinh</label>
+      <div class="radio-group">
+        <input type="radio" name="gender" value="male" checked>Male
+        <input type="radio" name="gender" value="female">Female<br><br>
+      </div>
+      <label>Dia chi</label>
+      <textarea name="address" placeholder="Dia chi"></textarea><br><br>
+      <label>Lop</label>
+      <select name="Lop">
+        <option value="chonlop">--Chon lop--</option>
+        <option value="lopjava">java</option>
+        <option value="lopphp">php</option>
+      </select><br><br>
+      <label>Email</label>
+      <input type="email" name="email" placeholder="Email"><br><br>
+      <label>Dien thoai</label>
+      <input type="number" name="phone" placeholder="Dien thoai"><br><br>
+      <div class="button-group">
+        <input type="button" class="btn-register" onclick="alert('dang ky thanh cong')" value="Dang ky">
+        <input type="reset" class="btn-reset" value="Nhap lai">
+      </div>
+    </form>
+  </div>
+</body>
+</html>

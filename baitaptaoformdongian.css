@@ -1,0 +1,55 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #ffffff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+.container {
+    width: 400px;
+    background-color: white;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+.header {
+    background-color: #ff4500;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    font-size: 18px;
+    font-weight: bold;
+}
+label {
+    font-weight: bold;
+    color: navy;
+}
+.checkbox-group {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 10px;
+}
+.checkbox-group label {
+    width: 50%;
+    color: orangered;
+}
+.buttons {
+    margin-top: 15px;
+    display: flex;
+    justify-content: center;
+}
+button {
+    padding: 8px 12px;
+    margin: 5px;
+    border: none;
+    cursor: pointer;
+}
+.submit-btn {
+    background-color: gray;
+    color: white;
+}
+.reset-btn {
+    background-color: gray;
+    color: white;
+}
