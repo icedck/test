@@ -1,0 +1,20 @@
+table {
+    border-collapse: collapse;
+    font-family: arial, sans-serif;
+    width: 100%;
+}
+h1{
+    text-align: center;
+    font-family: "Lucida Grande","Lucida Sans Unicode", Tahoma, sans-serif;
+}
+span{
+    font-family: "Lucida Grande","Lucida Sans Unicode", Tahoma, sans-serif;
+}
+th, td {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+}
+tr:nth-child(even) {
+    background-color: #dddddd;
+}
